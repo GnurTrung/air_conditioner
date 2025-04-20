@@ -2,7 +2,7 @@ import "./globals.css";
 
 const title = "Midea Kinh Bắc - Điều hòa Midea Kinh Bắc";
 const desc = "Midea Kinh Bắc - Điều hòa Midea Kinh Bắc";
-const img = "/assets/images/banner_pc.jpeg";
+const img = "/assets/images/vac.jpg";
 
 export const metadata = {
   title: title,

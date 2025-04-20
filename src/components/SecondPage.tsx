@@ -11,7 +11,7 @@ const SecondPage = () => {
       className="layout mt-6"
     >
       <div className="text-[40px] font-bold text-font-title">Sản phẩm nổi bật</div>
-      <div className="relative grid md:grid-cols-4 gap-3 sm:grid-cols-2 grid-cols-1">
+      <div className="relative grid md:grid-cols-3 lg:grid-cols-4 gap-3 sm:grid-cols-2 grid-cols-1">
         {dataAir.map((item: any, index: any) => {
           return <CustomItem data={item} key={index} />;
         })}

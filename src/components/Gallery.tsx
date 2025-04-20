@@ -20,7 +20,7 @@ const Gallery = () => {
         ></div>
         <div className="absolute bottom-6 left-6 sm:max-w-[40%]">
           <div className="font-bold text-[40px] text-white text-font-title">TẬP đoàn Midea</div>
-          <div className="text-white text-[20px]">
+          <div className="text-white text-[20px] max-sm:hidden">
             Midea là tập đoàn chuyên sản xuất và kinh doanh các thiết bị về xử
             lý không khí công trình và dân dụng, điện lạnh, thiết bị điện giá
             dụng, thiết bị nhà bếp lớn và nhỏ.
