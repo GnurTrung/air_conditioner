@@ -1,5 +1,6 @@
 [
   {
+    "id": "MCSM2",
     "name": "Midea Climatiseur Smart Doctor M 2.0 18HP Cooling and Heating Commercial VRF Air Conditioner Inverter for Shopping Malls",
     "minOrder": "1 Piece",
     "afterSalesService": "Hỗ trợ kỹ thuật trực tiếp",
@@ -9,9 +10,10 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "380/400 VAC",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/1.webp"
+    "imageUrl": "/assets/images/1.avif"
   },
   {
+    "id": "MIAC",
     "name": "Midea Industrial Air Conditioner Mini VRF Central Air Conditioning",
     "minOrder": "1 Piece",
     "afterSalesService": "Hỗ trợ kỹ thuật trực tiếp",
@@ -21,9 +23,10 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "220-240V",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/2.webp"
+    "imageUrl": "/assets/images/2.avif"
   },
   {
+    "id": "M2VAC",
     "name": "Midea 24HP-32HP VRF Air Conditioner Multi-Split DC Inverter Air Conditioner",
     "minOrder": "2 Pieces",
     "afterSalesService": "Hỗ trợ kỹ thuật trực tiếp",
@@ -33,9 +36,10 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "380/400 VAC",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/3.webp"
+    "imageUrl": "/assets/images/3.avif"
   },
   {
+    "id": "MVIU",
     "name": "Midea VRF Indoor Units Four-Way Cassette MI2-71q4dhn1 1-Phase 220-240V 50/60Hz 24200BTU 7.1kW Air Conditioner Multi Split AC 4 Cassette",
     "minOrder": "1 Piece",
     "afterSalesService": null,
@@ -50,9 +54,10 @@
     "coolingHeating": "Cooling/Heating",
     "application": "Room",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/4.webp"
+    "imageUrl": "/assets/images/4.avif"
   },
   {
+    "id": "MHSC",
     "name": "Midea Hot Sale Cheap Wall Mini Split Series VRF Air Conditioning Installation",
     "priceRange": "US$ 7000-15000 / Piece",
     "minOrder": "1 Piece",
@@ -63,10 +68,11 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "220-240V",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/5.webp"
+    "imageUrl": "/assets/images/5.avif"
   },
   {
-    "name": "Mvc Hỗ trợ kỹ thuật trực tiếply Midea VRF Air Conditioning System",
+    "id": "MVACS",
+    "name": "Mvc Hỗ trợ kỹ thuật trực tiếp Midea VRF Air Conditioning System",
     "priceRange": "US$ 500-10000 / Set",
     "minOrder": "1 Set",
     "afterSalesService": "Online Technical Support",
@@ -76,9 +82,10 @@
     "corrosionDurability": "Ultrahigh",
     "operatingVoltage": "380/400 VAC",
     "supplier": "Dongying Qinghua Trading Co., Ltd.",
-    "imageUrl": "/assets/images/6.webp"
+    "imageUrl": "/assets/images/6.avif"
   },
   {
+    "id": "MDDC",
     "name": "Midea Double Duty Cycling 153kbtu VRV VRF Smart Industrial Air Conditioning Systems Inverter MDV Air Conditioner",
     "priceRange": null,
     "minOrder": "1 Piece",
@@ -89,9 +96,10 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "380/400 VAC",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/7.webp"
+    "imageUrl": "/assets/images/7.avif"
   },
   {
+    "id": "M7DT",
     "name": "Midea 70HP 56ton Doctor M Technology Supplier R410A Split Unit Multi AC Inverter VRV Central Air Conditioning VRF System Air Conditioner",
     "priceRange": null,
     "minOrder": "1 Piece",
@@ -102,9 +110,10 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "380/400 VAC",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/8.webp"
+    "imageUrl": "/assets/images/8.avif"
   },
   {
+    "id": "MV8ASBF",
     "name": "Midea V8 Auto Snow-Blowing Function 86000BTU Smart HVAC Systems Multi Split Aircon Air Conditioners VRF for Office Buildings",
     "priceRange": null,
     "minOrder": "1 Piece",
@@ -115,9 +124,10 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "380/400 VAC",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/9.webp"
+    "imageUrl": "/assets/images/9.avif"
   },
   {
+    "id": "M38IAC",
     "name": "Midea 38HP 30ton Industrial Air Conditioning Commercial High Efficient Multi Type VRF Split AC Inverter Air Conditioner Manufacture VRV Central Air Conditioners",
     "priceRange": null,
     "minOrder": "1 Piece",
@@ -128,9 +138,10 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "380/400 VAC",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/10.webp"
+    "imageUrl": "/assets/images/10.avif"
   },
   {
+    "id": "MAC10V",
     "name": "Midea Aire Condicionado 10HP 50 (60) Hz VRF System Full DC Multi Split Package Commercial Air Conditioner Inverter for Hotels",
     "priceRange": null,
     "minOrder": "1 Piece",
@@ -141,9 +152,10 @@
     "corrosionDurability": "Higher",
     "operatingVoltage": "380/400 VAC",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/11.webp"
+    "imageUrl": "/assets/images/11.avif"
   },
   {
+    "id": "MCACLC",
     "name": "Midea Clima Aire Condicionado 16kw Light Commercial Mini VRF R410A High Efficiency Cooling and Heating Multi Split Air Conditioner",
     "priceRange": null,
     "minOrder": "1 Piece",
@@ -159,6 +171,6 @@
     "coolingHeating": null,
     "application": "Room",
     "supplier": "Beijing Midea Overseas Engineering & Technology Co., Ltd.",
-    "imageUrl": "/assets/images/12.webp"
+    "imageUrl": "/assets/images/12.avif"
   }
 ]

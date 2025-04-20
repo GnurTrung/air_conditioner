@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const CustomItem = ({ data }: any) => {
   return (
-    // <Link href={`/ino/${data?.attributes?.code}`}>
+    <Link href={`/product/${data?.id}`}>
       <div className="bg-white border border-solid rounded-lg p-2 border-[#555] cursor-pointer group flex flex-col h-full">
         <div className="flex flex-col space-y-2">
           <div className="aspect-square w-full overflow-hidden relative">
@@ -56,7 +56,7 @@ const CustomItem = ({ data }: any) => {
           </div>
         </div>
       </div>
-    // </Link>
+    </Link>
   );
 };
 
