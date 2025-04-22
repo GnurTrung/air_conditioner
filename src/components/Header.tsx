@@ -14,17 +14,17 @@ const Header = () => {
     {
       id: 1,
       name: "Sản phẩm nổi bật",
-      link: "#sanpham",
+      link: "/#sanpham",
     },
     {
       id: 3,
       name: "Về Midea",
-      link: "#midea",
+      link: "/#midea",
     },
     {
       id: 2,
       name: "Liên hệ",
-      link: "#vac",
+      link: "/#vac",
     },
   ];
   return (

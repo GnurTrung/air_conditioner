@@ -1,3 +1,4 @@
+import ScrollToHash from "@/components/scroll";
 import "./globals.css";
 
 const title = "Midea Kinh Bắc - Điều hòa Midea Kinh Bắc";
@@ -43,7 +44,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi">
-      <body>{children}</body>
+      <body>
+        <ScrollToHash />
+        {children}
+      </body>
     </html>
   );
 }
