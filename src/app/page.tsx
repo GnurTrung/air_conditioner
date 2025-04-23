@@ -12,6 +12,7 @@ import { ApplicationProvider, useApplication } from "@/context/useApplication";
 import { Toaster } from "react-hot-toast";
 import Gallery from "@/components/Gallery";
 import AboutVAC from "@/components/AboutVAC";
+import News from "@/components/News";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -71,54 +72,55 @@ export default function Home() {
       {/* {isLoading ? (
         <Loading />
       ) : ( */}
-        <>
-          <ApplicationProvider>
-            <Toaster />
-            <Header />
-            {/* banner */}
-            <FirstPage />
-            {/* sản phẩm nổi bật */}
-            <SecondPage />
-            {/* tính năng nổi bật */}
-            <Gallery />
-            <AboutVAC />
-            <div
-              className="fixed right-0 top-1/2 -translate-y-1/2 z-50 transition-all"
-              onMouseEnter={() => setIsHovering(true)}
-              onMouseLeave={() => setIsHovering(false)}
-            >
-              <div className="bg-white rounded-l-xl shadow-lg overflow-hidden transition-all duration-300">
-                {contacts.map((item, index) => (
-                  <a
-                    key={index}
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center px-3 py-2 hover:bg-gray-100 transition"
+      <>
+        <ApplicationProvider>
+          <Toaster />
+          <Header />
+          {/* banner */}
+          <FirstPage />
+          {/* sản phẩm nổi bật */}
+          <SecondPage />
+          {/* tính năng nổi bật */}
+          <Gallery />
+          <News />
+          <AboutVAC />
+          <div
+            className="fixed right-0 top-1/2 -translate-y-1/2 z-50 transition-all"
+            onMouseEnter={() => setIsHovering(true)}
+            onMouseLeave={() => setIsHovering(false)}
+          >
+            <div className="bg-white rounded-l-xl shadow-lg overflow-hidden transition-all duration-300">
+              {contacts.map((item, index) => (
+                <a
+                  key={index}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center px-3 py-2 hover:bg-gray-100 transition"
+                >
+                  <div className="w-8 h-8 flex items-center justify-center">
+                    <img
+                      src={item.icon || ""}
+                      alt={item.label}
+                      className="w-6 h-6"
+                    />
+                  </div>
+                  <span
+                    className={`ml-3 whitespace-nowrap text-sm text-gray-800 transition-all duration-300 ${
+                      isHovering
+                        ? "opacity-100 max-w-xs"
+                        : "opacity-0 max-w-0 overflow-hidden"
+                    }`}
                   >
-                    <div className="w-8 h-8 flex items-center justify-center">
-                      <img
-                        src={item.icon || ""}
-                        alt={item.label}
-                        className="w-6 h-6"
-                      />
-                    </div>
-                    <span
-                      className={`ml-3 whitespace-nowrap text-sm text-gray-800 transition-all duration-300 ${
-                        isHovering
-                          ? "opacity-100 max-w-xs"
-                          : "opacity-0 max-w-0 overflow-hidden"
-                      }`}
-                    >
-                      {item.label}
-                    </span>
-                  </a>
-                ))}
-              </div>
+                    {item.label}
+                  </span>
+                </a>
+              ))}
             </div>
-            <Footer />
-          </ApplicationProvider>
-        </>
+          </div>
+          <Footer />
+        </ApplicationProvider>
+      </>
       {/* )} */}
     </>
   );

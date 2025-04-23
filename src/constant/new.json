@@ -1,0 +1,20 @@
+[
+  {
+    "id": "van-hanh-dieu-hoa-trung-tam",
+    "title": "Thông tin cơ bản về quy trình vận hành hệ thống điều hòa trung tâm",
+    "img": "/assets/images/news/vrf_1.webp",
+    "des": "Điều hòa trung tâm là hệ thống điều hòa đồ sộ và phức tạp với khả năng kết nối lên tới 64 dàn lạnh khác nhau."
+  },
+  {
+    "id": "tam-pu-kho-lanh",
+    "title": "Quy trình thi công tấm panel PU kho lạnh tiêu chuẩn",
+    "img": "/assets/images/news/pu.jpg",
+    "des": "Tấm panel PU kho lạnh không còn xa lạ gì, bởi vì đây là vật liệu khắc phục được những hư hại trong các kho đông lạnh."
+  },
+  {
+    "id": "may-chiller",
+    "title": "Tìm hiểu về công dụng của máy Chiller",
+    "img": "/assets/images/news/chiller.png",
+    "des": "Ngày nay chúng ta thường thấy sự xuất hiện của máy chiller ở nhiều nơi. Cụ thể là trong các nhà máy cũng như là trung tâm thương mại."
+  }
+]

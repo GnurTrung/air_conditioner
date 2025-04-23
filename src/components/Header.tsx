@@ -22,6 +22,11 @@ const Header = () => {
       link: "/#midea",
     },
     {
+      id: 3,
+      name: "Tin tức",
+      link: "/#new",
+    },
+    {
       id: 2,
       name: "Liên hệ",
       link: "/#vac",
