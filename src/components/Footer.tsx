@@ -5,13 +5,6 @@ const Footer = () => {
   return (
     <section className="px-[16px] text-white py-[12px] sm:py-[30px] sm:px-[80px] bg-[#000000] flex sm:items-center sm:justify-between max-sm:flex-col max-sm:gap-4">
       <div className="flex flex-col sm:items-start">
-        {/* <Image
-            src="/assets/images/logo.png"
-            alt="err"
-            width={80}
-            height={80}
-            className="rounded-full"
-          /> */}
           <img
             src="/assets/images/logo.png"
             alt="err"
