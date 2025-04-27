@@ -17,7 +17,7 @@ export default function Page() {
   return (
     <div>
       <Header />
-      <div className="layout py-20 sm:max-w-[50%]">
+      <div className="layout py-24 sm:max-w-[50%]">
         <h1 className="text-3xl font-bold text-font-title">
           Thông tin cơ bản về quy trình vận hành hệ thống điều hòa trung tâm
         </h1>

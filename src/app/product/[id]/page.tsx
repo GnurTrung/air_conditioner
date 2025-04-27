@@ -28,7 +28,7 @@ const ProductPage = () => {
   return (
     <div>
       <Header />
-      <div className="layout py-20">
+      <div className="layout py-24">
         <div className="flex mt-4 flex-col lg:flex-row gap-4">
           <img
             src={data?.imageUrl}

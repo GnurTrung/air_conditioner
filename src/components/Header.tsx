@@ -33,7 +33,7 @@ const Header = () => {
     },
   ];
   return (
-    <footer className="fixed top-0 backdrop-blur-md bg-white border-b border-black flex justify-between sm:px-[7rem] py-[12px] w-full items-center z-[10] max-sm:px-[16px]">
+    <footer className="fixed top-0 backdrop-blur-md bg-white/40 border-b border-black flex justify-between sm:px-[7rem] py-[12px] w-full items-center z-[10] max-sm:px-[16px]">
       <div className="flex flex-col sm:items-center">
         <a href="/" rel="noopener noreferrer">
           <img
@@ -41,7 +41,7 @@ const Header = () => {
             alt="err"
             // width={150}
             // height={50}
-            className="w-[150px]"
+            className="w-[120px]"
           />
           {/* <div className="text-[#fff] flex text-[24px] text-font-title">
             Kinh Bắc VAC
