@@ -5,7 +5,7 @@ import { Tooltip } from "antd";
 
 const News = () => {
   return (
-    <section id="new" className="layout mt-6 pb-10">
+    <section id="new" className="layout mt-6 py-20">
       <div className="text-[40px] font-bold text-font-title">
         Tin tức
       </div>
