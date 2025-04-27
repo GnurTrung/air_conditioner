@@ -12,7 +12,14 @@ const Footer = () => {
             height={80}
             className="rounded-full"
           /> */}
-        <div className=" flex text-[24px]">
+          <img
+            src="/assets/images/logo.png"
+            alt="err"
+            // width={150}
+            // height={50}
+            className="w-[180px]"
+          />
+        <div className=" flex text-[24px] mt-5">
           Công ty TNHH Ngôi Sao Xanh Kinh Bắc
         </div>
         <div className="text-[14px]">

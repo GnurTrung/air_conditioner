@@ -33,19 +33,19 @@ const Header = () => {
     },
   ];
   return (
-    <footer className="fixed top-0 backdrop-blur-md bg-black/40 flex justify-between sm:px-[7rem] py-[12px] w-full items-center z-[10] max-sm:px-[16px]">
+    <footer className="fixed top-0 backdrop-blur-md bg-white border-b border-black flex justify-between sm:px-[7rem] py-[12px] w-full items-center z-[10] max-sm:px-[16px]">
       <div className="flex flex-col sm:items-center">
         <a href="/" rel="noopener noreferrer">
-          {/* <Image
+          <img
             src="/assets/images/logo.png"
             alt="err"
-            width={60}
-            height={61}
-            className="rounded-full"
-          /> */}
-          <div className="text-[#fff] flex text-[24px] text-font-title">
+            // width={150}
+            // height={50}
+            className="w-[150px]"
+          />
+          {/* <div className="text-[#fff] flex text-[24px] text-font-title">
             Kinh Bắc VAC
-          </div>
+          </div> */}
         </a>
       </div>
       <ul
@@ -62,7 +62,7 @@ const Header = () => {
             }}
           >
             <a href={item.link}>
-              <div className="text-[white] hover:text-[#78ADCE] font-normal hover:cursor-pointer transition-all text-[24px]">
+              <div className="hover:text-[black] text-blue-600 font-normal hover:cursor-pointer transition-all text-[24px]">
                 {item.name}
               </div>
             </a>
