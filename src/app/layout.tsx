@@ -2,7 +2,8 @@ import ScrollToHash from "@/components/scroll";
 import "./globals.css";
 
 const title = "Midea Kinh Bắc - Điều hòa Midea Kinh Bắc";
-const desc = "Midea Kinh Bắc - Điều hòa Midea Kinh Bắc";
+const desc =
+  "Khám phá điều hòa Midea chính hãng tại Kinh Bắc. Giá rẻ, bảo hành dài hạn, liên hệ ngay để được tư vấn!";
 const img = "https://www.kinhbachvac.vn/assets/images/kgs.jpg";
 
 export const metadata = {
@@ -12,10 +13,10 @@ export const metadata = {
     "dieu hoa",
     "điều hòa",
     "midea",
-    "điều hòa midea",
-    "điều hòa kinh bắc",
     "điều hòa midea kinh bắc",
-    "midea kinh bắc",
+    "mua điều hòa midea giá rẻ",
+    "điều hòa kinh bắc uy tín",
+    "midea kinh bắc chính hãng",
   ],
   openGraph: {
     title,
@@ -25,7 +26,7 @@ export const metadata = {
         url: img,
         width: 1200,
         height: 630,
-        alt: "Midea Kinh Bắc",
+        alt: "Điều hòa Midea Kinh Bắc",
       },
     ],
   },
