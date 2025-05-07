@@ -43,7 +43,7 @@ export default function Home() {
     {
       icon: "/assets/images/fb.png",
       label: "Facebook",
-      href: "https://www.facebook.com/tien.lengoc.167",
+      href: "https://www.facebook.com/profile.php?id=61575715004740",
     },
   ];
 
