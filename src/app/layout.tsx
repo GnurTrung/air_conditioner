@@ -3,7 +3,7 @@ import "./globals.css";
 
 const title = "Midea Kinh Bắc - Điều hòa Midea Kinh Bắc";
 const desc = "Midea Kinh Bắc - Điều hòa Midea Kinh Bắc";
-const img = "https://kinhbacvac.vercel.app/assets/images/vac.jpg";
+const img = "https://www.kinhbachvac.vn/assets/images/kgs.jpg";
 
 export const metadata = {
   title,
