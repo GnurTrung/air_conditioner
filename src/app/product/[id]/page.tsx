@@ -64,7 +64,7 @@ const ProductPage = () => {
 
             <div className="flex gap-4 mt-6">
             <a
-                href={"https://zalo.me/0868632999"}
+                href={"https://zalo.me/0923636288"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-gray-300 flex items-center px-3 py-2 hover:bg-gray-100 transition rounded-full"
@@ -81,7 +81,7 @@ const ProductPage = () => {
                 </span>
               </a>
               <a
-                href={"tel:0868632999"}
+                href={"tel:0923636288"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-gray-300 flex items-center px-3 py-2 hover:bg-gray-100 transition rounded-full"

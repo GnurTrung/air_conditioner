@@ -33,12 +33,12 @@ export default function Home() {
     {
       icon: "/assets/images/phone.png", // Icon tạm thời (thay bằng URL ảnh sau)
       label: "Gọi Điện Thoại",
-      href: "tel:0868632999",
+      href: "tel:0923636288",
     },
     {
       icon: "/assets/images/zalo.webp",
       label: "Zalo",
-      href: "https://zalo.me/0868632999",
+      href: "https://zalo.me/0923636288",
     },
     {
       icon: "/assets/images/fb.png",
